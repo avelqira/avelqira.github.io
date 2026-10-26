@@ -1,16 +1,17 @@
 # AVELQIRA MAKE & BEAUTY
 
-Site estático compatível com GitHub Pages.
+Site estático para GitHub Pages, com catálogo de produtos e pedidos por WhatsApp.
 
-A vitrine contém os 56 itens da aba Catálogo Completo e usa a coluna Venda Sugerida (R$) conforme pedido. Os preços são as sugestões registradas na planilha. A disponibilidade aparece como “consulte” pois a planilha não confirma recebimento. 13 itens têm foto identificada e associada ao nome do produto; os demais mostram um espaço visual até recebermos uma imagem correspondente.
+## Editar produtos e preços
+Abra assets/js/products.js. Procure pelo código do produto e atualize nome, marca, categoria ou preço sugerido. Os valores devem ser números (ex.: 10 ou 15.5). O campo description pode ser preenchido para aparecer no cartão do produto. Não inclua custos, fornecedor ou estoque interno.
 
-## Atualizar produtos
-Edite assets/js/products.js. Cada produto guarda código, nome, marca, categoria, preço, foto (quando identificada), status e disponibilidade. Não inclua custos, fornecedores ou dados internos.
+## Trocar fotos
+Envie uma foto para assets/images/products/ e informe o caminho no campo image, por exemplo: assets/images/products/GA033.jpg. Na vitrine aparecem os produtos marcados como status ativo; use available:false para ocultar temporariamente um item.
 
-## Configurar contato
-Em assets/js/config.js, informe whatsappNumber com DDI+DDD+número (somente dígitos) e instagramUrl com a URL oficial. O botão de WhatsApp explica que está em configuração enquanto o número estiver vazio.
+## Contato
+Os canais oficiais ficam em assets/js/config.js. WhatsApp usa o formato DDI+DDD+número, somente dígitos; Instagram é opcional.
 
-## Publicar
-Crie o repositório avelqira.github.io, envie os arquivos desta pasta para a raiz e ative GitHub Pages em Settings > Pages. Confirme o endereço após ativar.
+## Publicar atualizações
+No GitHub, edite o arquivo ou envie a foto, depois clique em Commit changes na branch main. O Pages republica as alterações automaticamente; pode levar alguns minutos.
 
-Esta versão é um catálogo com solicitação pelo WhatsApp. Não processa pagamento, frete, reserva ou gestão de estoque.
+Este site funciona como catálogo e solicitação pelo WhatsApp. Não processa pagamento, frete, reserva ou estoque em tempo real.

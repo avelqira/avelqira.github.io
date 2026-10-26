@@ -1,4 +1,76 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AVELQIRA MAKE & BEAUTY</title><link rel="stylesheet" href="assets/css/styles.css"><script defer src="assets/js/config.js"></script><script defer src="assets/js/products.js"></script><script defer src="assets/js/main.js"></script></head><body><header><b>AVELQIRA<small>MAKE & BEAUTY</small></b><nav><a href="#categorias">Categorias</a> <a href="#catalogo">Catálogo</a> <a href="#sobre">Sobre</a> <a href="#contato">Contato</a></nav></header><main><section class="hero"><div><small>SUA BELEZA, SEU JEITO</small><h1>Sua beleza,<br><i>seu estilo,</i><br>seu preço.</h1><p>Beleza acessível. Estilo que marca.</p><a href="#catalogo">Explorar produtos ↗</a></div><div class="art">AVELQIRA</div></section><section id="categorias"><h2>Um toque de beleza para cada momento</h2><div class="cats"><a href="#catalogo" data-category-link="Make">Make ✳</a><a href="#catalogo" data-category-link="Skincare">Skincare ✳</a><a href="#catalogo" data-category-link="Cabelos">Cabelos ✳</a><a href="#catalogo" data-category-link="Unhas">Unhas ✳</a><a href="#catalogo" data-category-link="Acessórios">Acessórios ✳</a><a href="#catalogo" data-category-link="Ofertas">Ofertas ✳</a></div></section><section id="catalogo"><h2>Catálogo AVELQIRA</h2><p>A planilha tem produtos em cotação. Vamos publicar itens após confirmar recebimento, preço final, disponibilidade e fotos.</p><input id="search" placeholder="Buscar"><select id="category-filter"><option value="">Todas as categorias</option></select><select id="sort-filter" aria-label="Ordenar produtos"><option value="featured">Em destaque</option><option value="price-asc">Menor preço</option><option value="price-desc">Maior preço</option><option value="name">Nome A–Z</option></select><div id="product-grid" class="products"></div><div id="catalog-empty">Estamos preparando novidades.</div></section><section id="sobre"><h2>Beleza acessível. Estilo que marca.</h2><p>Variedade, preços claros e atendimento próximo em Itacarambi, Minas Gerais.</p></section><section id="contato"><h2>Vamos falar de beleza?</h2><a data-whatsapp-link href="#contato">WhatsApp</a><p data-contact-status>WhatsApp oficial em configuração.</p><a data-instagram-link href="#contato">Instagram em configuração</a><p>E-MAIL OFICIAL<br><a href="mailto:avelqira.makebeauty@gmail.com">avelqira.makebeauty@gmail.com</a></p></section></main><footer>AVELQIRA MAKE & BEAUTY</footer></body></html>
-
-
-
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#6b1f3a">
+  <meta name="description" content="AVELQIRA MAKE & BEAUTY — beleza acessível, estilo que marca. Catálogo de make e cuidados em Itacarambi, MG.">
+  <title>AVELQIRA MAKE & BEAUTY | Beleza acessível</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/products.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <div class="announcement">Beleza acessível. Estilo que marca.</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="AVELQIRA Make & Beauty">
+      <span class="brand-monogram">A</span><span><b>AVELQIRA</b><small>MAKE <i>&</i> BEAUTY</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="main-nav" aria-label="Menu principal">
+      <a href="#categorias">Categorias</a><a href="#destaques">Destaques</a><a href="#catalogo">Catálogo</a><a href="#sobre">Sobre</a>
+    </nav>
+    <a class="header-contact" data-whatsapp-link href="#contato"><span class="wa-icon">◉</span> Pedir pelo WhatsApp</a>
+  </header>
+  <main>
+    <section class="hero" id="inicio" aria-label="Capa da AVELQIRA MAKE & BEAUTY">
+      <img class="hero-cover" src="assets/images/hero-avelqira.svg" alt="AVELQIRA MAKE & BEAUTY — Sua beleza, seu estilo, seu preço. Beleza acessível que valoriza.">
+      <a class="hero-cover-link hero-cover-catalog" href="#catalogo" aria-label="Ver catálogo"></a>
+      <a class="hero-cover-link hero-cover-whatsapp" data-whatsapp-link href="#contato" aria-label="Pedir no WhatsApp"></a>
+    </section>
+    <div class="service-line"><span>AVELQIRA MAKE & BEAUTY</span><i></i><span>BELEZA ACESSÍVEL</span><i></i><span>ITACARAMBI · MG</span></div>
+    <section class="categories-section section-wrap" id="categorias">
+      <div class="section-kicker"><span>ESCOLHA POR CATEGORIA</span><i></i></div>
+      <div class="category-grid">
+        <a class="category-tile" href="#catalogo" data-category-link="Make"><span class="cat-icon">✧</span><b>Make</b><small data-count-category="Make"></small></a>
+        <a class="category-tile" href="#catalogo" data-category-link="Skincare"><span class="cat-icon">◌</span><b>Skincare</b><small data-count-category="Skincare"></small></a>
+        <a class="category-tile" href="#catalogo" data-category-link="Cabelos"><span class="cat-icon">〰</span><b>Cabelos</b><small data-count-category="Cabelos"></small></a>
+        <a class="category-tile" href="#catalogo" data-category-link="Unhas"><span class="cat-icon">♡</span><b>Unhas</b><small data-count-category="Unhas"></small></a>
+        <a class="category-tile" href="#catalogo" data-category-link="Acessórios"><span class="cat-icon">⌁</span><b>Acessórios</b><small data-count-category="Acessórios"></small></a>
+        <a class="category-tile" href="#catalogo" data-category-link="Ofertas"><span class="cat-icon">✳</span><b>Ofertas</b><small data-count-category="Ofertas"></small></a>
+      </div>
+    </section>
+    <section class="featured-section section-wrap" id="destaques">
+      <div class="section-title"><div><div class="section-kicker"><span>SELEÇÃO AVELQIRA</span><i></i></div><h2>Destaques <em>pra você</em></h2><p>Uma seleção de produtos com foto para você conhecer melhor.</p></div><a class="text-link" href="#catalogo">Ver catálogo completo <span>↗</span></a></div>
+      <div class="featured-grid" id="featured-grid"></div>
+    </section>
+    <section class="price-highlight">
+      <div class="price-flower">✳</div><div><p class="eyebrow">ESCOLHAS PARA DIFERENTES ORÇAMENTOS</p><h2>Beleza que cabe<br><em>no seu momento.</em></h2><p>Confira os preços sugeridos e fale com a gente para consultar disponibilidade.</p></div><a class="button button-light" href="#catalogo" data-price-link="10">Ver opções até R$ 10 <span>↗</span></a>
+    </section>
+    <section class="catalog-section section-wrap" id="catalogo">
+      <div class="section-title catalog-title"><div><div class="section-kicker"><span>CATÁLOGO AVELQIRA</span><i></i></div><h2>Encontre seu <em>favorito.</em></h2><p>Valores sugeridos da planilha. Consulte a disponibilidade antes de pedir.</p></div></div>
+      <div class="catalog-filters">
+        <label class="search-field"><span>⌕</span><input id="search" type="search" placeholder="Buscar produto ou marca" aria-label="Buscar produtos"></label>
+        <select id="category-filter" aria-label="Filtrar por categoria"><option value="">Todas as categorias</option></select>
+        <select id="brand-filter" aria-label="Filtrar por marca"><option value="">Todas as marcas</option></select>
+        <select id="price-filter" aria-label="Filtrar por preço"><option value="">Todos os preços</option><option value="5">Até R$ 5</option><option value="10">Até R$ 10</option><option value="15">Até R$ 15</option><option value="20">R$ 20 ou mais</option></select>
+        <select id="sort-filter" aria-label="Ordenar produtos"><option value="featured">Destaques</option><option value="price-asc">Menor preço</option><option value="price-desc">Maior preço</option><option value="name">Nome A–Z</option></select>
+      </div>
+      <p class="results-count" id="results-count" aria-live="polite"></p>
+      <div class="products-grid" id="product-grid"></div>
+      <div class="catalog-empty" id="catalog-empty" hidden><span>✧</span><h3>Nenhum produto encontrado</h3><p>Tente outra busca ou escolha uma categoria diferente.</p></div>
+    </section>
+    <section class="about-section" id="sobre">
+      <div class="about-mark">A<small>ITACARAMBI</small></div>
+      <div class="about-copy"><div class="section-kicker"><span>UM POUCO SOBRE NÓS</span><i></i></div><h2>Beleza acessível.<br><em>Atendimento de perto.</em></h2><p>A AVELQIRA é de Itacarambi, Minas Gerais. Nosso catálogo reúne opções de maquiagem e cuidados com preços claros e atendimento próximo.</p><p>Gostou de algum produto? Chame a gente para confirmar disponibilidade e combinar seu pedido.</p><a class="text-link" data-whatsapp-link href="#contato">Converse com a AVELQIRA <span>↗</span></a></div>
+    </section>
+    <section class="contact-section" id="contato">
+      <div class="contact-main"><div class="section-kicker"><span>ESTAMOS POR AQUI</span><i></i></div><h2>Vamos falar<br>de <em>beleza?</em></h2><p>Consulte produtos e disponibilidade diretamente com a AVELQIRA.</p><a class="button button-light" data-whatsapp-link href="#contato"><span class="wa-icon">◉</span> Pedir pelo WhatsApp</a><p class="contact-status" data-contact-status></p></div>
+      <div class="contact-info"><div class="contact-row"><span>WHATSAPP</span><a data-whatsapp-number href="#contato">Falar com a loja ↗</a></div><div class="contact-row"><span>E-MAIL</span><a href="mailto:avelqira.makebeauty@gmail.com">avelqira.makebeauty@gmail.com ↗</a></div><div class="contact-row"><span>LOCALIZAÇÃO</span><b>Itacarambi, Minas Gerais</b></div><div class="contact-row instagram-row" hidden><span>INSTAGRAM</span><a data-instagram-link href="#contato">Acompanhe ↗</a></div></div>
+    </section>
+  </main>
+  <a class="floating-whatsapp" data-whatsapp-link href="#contato" aria-label="Pedir pelo WhatsApp"><span>◉</span><b>WhatsApp</b></a>
+  <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><span class="brand-monogram">A</span><span><b>AVELQIRA</b><small>MAKE <i>&</i> BEAUTY</small></span></a><p>Beleza acessível. Estilo que marca.</p><div class="footer-bottom"><span>© <span id="year"></span> AVELQIRA MAKE & BEAUTY</span><span>Itacarambi · MG</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+</body></html>
