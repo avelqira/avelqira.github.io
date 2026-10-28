@@ -456,6 +456,7 @@ window.AVELQIRA_PRODUCTS = [
     "category": "Make",
     "price": 10.0,
     "image": "assets/images/products/GA046.jpg",
+    "newArrival": true,
     "status": "ativo",
     "available": null
   },
@@ -475,7 +476,7 @@ window.AVELQIRA_PRODUCTS = [
     "brand": "Coloré",
     "category": "Skincare",
     "price": 15.0,
-    "image": null,
+    "image": "assets/images/products/GA048.jpg",
     "status": "ativo",
     "available": null
   },
@@ -485,7 +486,7 @@ window.AVELQIRA_PRODUCTS = [
     "brand": "Coloré",
     "category": "Skincare",
     "price": 18.0,
-    "image": null,
+    "image": "assets/images/products/GA049.jpg",
     "status": "ativo",
     "available": null
   },
@@ -495,7 +496,7 @@ window.AVELQIRA_PRODUCTS = [
     "brand": "Coloré",
     "category": "Skincare",
     "price": 15.0,
-    "image": null,
+    "image": "assets/images/products/GA050.jpg",
     "status": "ativo",
     "available": null
   },
@@ -505,7 +506,7 @@ window.AVELQIRA_PRODUCTS = [
     "brand": "Coloré",
     "category": "Skincare",
     "price": 12.0,
-    "image": null,
+    "image": "assets/images/products/GA051.jpg",
     "status": "ativo",
     "available": null
   },
@@ -560,3 +561,4 @@ window.AVELQIRA_PRODUCTS = [
     "available": null
   }
 ];
+

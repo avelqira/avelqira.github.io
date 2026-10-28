@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" fill="none">
+<defs><linearGradient id="bg" x1="40" y1="20" x2="860" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#E7C7BE"/><stop offset=".53" stop-color="#B97869"/><stop offset="1" stop-color="#57333A"/></linearGradient><linearGradient id="hair" x1="270" y1="10" x2="710" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#F6DDD0"/><stop offset=".48" stop-color="#A9685C"/><stop offset="1" stop-color="#321F29"/></linearGradient></defs>
+<path fill="url(#bg)" d="M0 0h900v520H0z"/>
+<path d="M247-60C475 35 365 128 536 170c162 40 201 88 54 170-110 61-111 156 122 234M302-50c211 110 77 181 255 226 156 39 173 85 38 160-120 67-99 144 114 214M369-30c168 118 20 186 191 231 149 40 149 78 23 149-107 61-72 139 96 197M432-5c129 120-6 176 137 220 135 40 122 78 7 139-90 48-48 113 74 167" stroke="url(#hair)" stroke-width="28" stroke-linecap="round" opacity=".86"/>
+<path d="M605 85c91-60 200-26 233 57" stroke="#F5D7C5" stroke-opacity=".38" stroke-width="3"/>
+</svg>
