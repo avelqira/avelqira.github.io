@@ -108,7 +108,11 @@
   </div>
   <div class="modal-backdrop cart-backdrop" id="cart-modal" hidden>
     <section class="cart-dialog" role="dialog" aria-modal="true" aria-labelledby="cart-title"><button class="dialog-close" type="button" data-cart-close aria-label="Fechar">×</button><p class="section-kicker">SEU PEDIDO</p><h2 id="cart-title">Minha sacola</h2><div id="cart-items"></div><div class="cart-total"><span>Total estimado</span><strong id="cart-total">R$ 0,00</strong></div><p class="cart-note">A disponibilidade e o valor final serão confirmados pela loja no WhatsApp.</p><button class="button button-primary cart-send" type="button" data-cart-send>Enviar pedido pelo WhatsApp</button></section>
-  </div>  <button class="floating-cart" type="button" data-cart-open aria-label="Abrir sacola">Sacola <b data-cart-count>0</b></button>
+  </div>
+  <div class="modal-backdrop payment-backdrop" id="payment-modal" hidden>
+    <section class="payment-dialog" role="dialog" aria-modal="true" aria-labelledby="payment-title"><button class="dialog-close" type="button" data-payment-close aria-label="Fechar">×</button><p class="section-kicker">FINALIZAR PELO WHATSAPP</p><h2 id="payment-title">Como prefere pagar?</h2><p>Escolha a forma de pagamento para já informar a loja na sua mensagem.</p><div class="payment-options"><button type="button" data-payment-choice="PIX"><span>◈</span><b>PIX</b><small>Pagamento rápido e sem acréscimo</small></button><button type="button" data-payment-choice="Cartão"><span>▣</span><b>Cartão</b><small>Com acréscimo da maquininha</small></button></div><p class="payment-help">No cartão, a AVELQIRA confirma o valor final antes de concluir o pedido.</p></section>
+  </div>
+  <button class="floating-cart" type="button" data-cart-open aria-label="Abrir sacola">Sacola <b data-cart-count>0</b></button>
   <a class="floating-whatsapp" data-whatsapp-link href="#contato" aria-label="Pedir pelo WhatsApp"><span>◉</span><b>WhatsApp</b></a>
 <footer class="site-footer" id="rodape">
     <div class="footer-columns">
